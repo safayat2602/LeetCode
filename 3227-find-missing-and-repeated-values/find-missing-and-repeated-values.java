@@ -11,7 +11,7 @@ class Solution {
        }
        int repeat=-1;
        int missing=-1;
-       for(int i=1;i<=hasharr.length;i++)
+       for(int i=1;i<hasharr.length;i++)
        {
          if(hasharr[i]>1)
            repeat=i;
